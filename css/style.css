@@ -1,0 +1,43 @@
+@font-face {
+	font-family: opensansL;
+	src: url('../font/OpenSans-Light.ttf');
+}
+@font-face {
+	font-family:proximaNovaL;
+	src:url('../font/Proxima Nova Light.ttf');
+}
+.clear{
+	clear: both;
+}
+header .headerWrap{
+	width: 1247px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	padding: 24px 0;
+}
+header .headerWrap .headerLogo{
+	width: 226px;
+	height: 66px;
+	border: 1px solid #979797;
+	float: left;
+	/*margin: 24px 0;*/
+	text-align: center;
+	line-height: 66px;
+}
+header .headerWrap .headerLogo span{
+	font-size: 30px;
+	font-family: "opensansL";
+	color: #979797;
+}
+header .headerWrap .headerContact{
+	float: right;
+}
+header .headerWrap .headerContact .headerPhoneNumber{
+	font-family: 'proximaNovaL';
+	font-size: 40px;
+	color: #535353;
+	line-height: 0.8;
+}
+header .headerWrap .headerContact #headerForm{
+	border: 1px solid #000;
+}
