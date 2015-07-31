@@ -41,3 +41,8 @@ header .headerWrap .headerContact .headerPhoneNumber{
 header .headerWrap .headerContact #headerForm{
 	border: 1px solid #000;
 }
+header .headerWrap .headerContact #headerForm #phone{
+	width: 142px;
+	height: 40px;
+	
+}
