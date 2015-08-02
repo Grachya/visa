@@ -12,7 +12,7 @@
 header .headerWrap{
 	width: 1247px;
 	margin: 0 auto;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	padding: 24px 0;
 }
 header .headerWrap .headerLogo{
@@ -73,7 +73,7 @@ header .secondPartOfHeader{
 	background-size: cover;
 	width: 100%;
 	height: 450px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 header .secondPartOfHeader .headerNav{
 	max-width: 100%;
@@ -83,7 +83,7 @@ header .secondPartOfHeader .headerNav{
 }
 header .secondPartOfHeader .headerNav .headerNavWrap{
 	width: 1247px;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	margin: 0 auto;
 	height: 53px;
 	line-height: 53px;
@@ -104,14 +104,14 @@ header .secondPartOfHeader .headerNav ul li a{
 }
 header .secondPartOfHeader .secondPartOfHeaderMainContent{
 	width: 1247px;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	margin: 0 auto;
 	height: 300px;
 }
 header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo{
 	width: 480px;
 	/*height: 300px;*/
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	padding-left: 70px;
 	margin-top: 40px;	
 }
@@ -126,7 +126,7 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	font-family: "opensansL";
 	font-size: 30px;
 	color: #fff;
@@ -142,7 +142,7 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 }
 #mainPart .mainPatrWrap{
 	width: 1247px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	margin: 0 auto;
 	/*height: 300px;*/
 }
@@ -153,14 +153,14 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 40px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 #mainPart .mainPatrWrap .servicesBlock{
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 #mainPart .mainPatrWrap .servicesBlock .ser{
 	display: inline-block;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	font-size: 0;
 	vertical-align: top;
 	text-align: center;
@@ -174,7 +174,7 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	color: #1c1c1c;
 	text-align: center;
 	font-family: "opensansL";
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	/*height: 62px;*/
 	/*line-height: 42px;*/
 	margin-bottom: 10px;
@@ -197,11 +197,70 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 }
 #mainPart .mainPatrWrap .textBlock{
 	margin-bottom: 90px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 #mainPart .mainPatrWrap .textBlock p{
 	color: #1c1c1c;
 	font-size: 20px;
 	margin-bottom: 15px;
 	font-family: "opensansL";
+}
+footer #footer{
+	max-width: 100%;
+	min-width: 1247px;
+}
+footer #footer .footerWrap{
+	width: 1247px;
+	background: url('../img/footerBg.png') no-repeat;
+	height: 418px;
+	/*border: 1px solid #000;*/
+	margin: 0 auto;
+	position: relative;
+    z-index: 2;
+    margin-bottom: -147px;
+}
+footer #footer .footerWrap .footerForm{
+	width: 280px;
+	/*border: 1px solid #000;*/
+	margin: 0 auto;
+	height: 100%;
+	text-align: center;
+} 
+footer #footer .footerWrap .footerForm p{
+	font-size: 22px;
+	color: #212121;
+	font-family: "opensansL";
+	padding-top: 50px;
+}
+footer #footer .footerWrap .footerForm p span{
+	font-size: 40px;
+	color: #212121;
+	font-family: "opensansL";
+}
+footer #footer .footerWrap .footerForm input{
+	border: 1px solid #213455;
+	background: none;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	width: 245px;
+	height: 45px;
+	margin-top: 30px;
+	font-size: 22px;
+	color: #213455;
+}
+footer #footer .footerWrap .footerForm input#footerButton{
+	color: #213455;
+	font-size: 30px;
+	font-family: "opensansL";
+}
+footer #footer .footerWrap .footerForm input#footerButton:hover{
+	cursor: pointer;
+	background: #ccc;
+	color: #fff;
+}
+footer #footer .footerMap{
+	max-width: 100%;
+	min-width: 1247px;
+
 }

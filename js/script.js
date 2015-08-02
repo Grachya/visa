@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	// input mask
 	$("#phone").mask("+7(999)999-99-99");
+	$("#footerPhone").mask("+7(999)999-99-99");
+	
 
 	// service p height
 	var pheight = $('.ser p');
@@ -11,5 +13,4 @@ $(document).ready(function(){
 	var finalPheight = serParray.reduce(function(x,y){return (x>y)?x:y;});
 	$('.ser p').css({'height':finalPheight});
 
-	// next
 })
