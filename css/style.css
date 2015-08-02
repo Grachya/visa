@@ -68,6 +68,34 @@ header .headerWrap .headerContact #headerForm #headerFormButton:hover{
 	color: #fff;
 	background: #ccc;
 }
+/*******NOT INDEX*********/
+header #headerNoImg{
+	background: none;
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+}
+header #headerNoImg .secondPartOfHeaderMainContent .headerMainInfo p{
+	color: #3e3e3e;
+}
+header #headerNoImg .secondPartOfHeaderMainContent .headerMainInfo p.fontSz43{
+	font-size: 43px;
+}
+header #headerNoImg .secondPartOfHeaderMainContent .headerMainInfo{
+	width: 1000px;
+	/*height: 300px;*/
+	/*border: 1px solid #fff;*/
+	padding-left: 70px;
+	margin-top: 40px;	
+}
+header #headerNoImg .secondPartOfHeaderMainContent{
+	width: 1247px;
+	/*border: 1px solid #fff;*/
+	margin: 0 auto;
+	/*height: 300px;*/
+}
+/*******NOT INDEX*********/
+/*********INDEX*********/
 header .secondPartOfHeader{
 	background: url('../img/headerphoto.jpg') no-repeat;
 	background-size: cover;
@@ -136,6 +164,7 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	color: #000;
 	background: #ccc;
 }
+/*********INDEX*********/
 #mainPart{
 	max-width: 100%;
 	min-width: 1247px;
