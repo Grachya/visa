@@ -272,11 +272,12 @@ footer #footer .footerWrap .footerForm input{
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
 	border-radius: 14px;
-	width: 245px;
+	width: 235px;
 	height: 45px;
 	margin-top: 30px;
 	font-size: 22px;
 	color: #213455;
+	padding-left: 10px;
 }
 footer #footer .footerWrap .footerForm input#footerButton{
 	color: #213455;
