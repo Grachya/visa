@@ -3,8 +3,8 @@
 	src: url('../font/OpenSans-Light.ttf');
 }
 @font-face {
-	font-family:proximaNovaL;
-	src:url('../font/Proxima Nova Light.ttf');
+	font-family: proximaNovaL;
+	src:url('../font/Proxima_Nova_Light.ttf');
 }
 .clear{
 	clear: both;
@@ -24,10 +24,15 @@ header .headerWrap .headerLogo{
 	text-align: center;
 	line-height: 66px;
 }
-header .headerWrap .headerLogo span{
+header .headerWrap .headerLogo a{
 	font-size: 30px;
 	font-family: "opensansL";
 	color: #979797;
+	display: block;
+	text-decoration: none;
+}
+header .headerWrap .headerLogo a span{
+
 }
 header .headerWrap .headerContact{
 	float: right;
@@ -37,12 +42,166 @@ header .headerWrap .headerContact .headerPhoneNumber{
 	font-size: 40px;
 	color: #535353;
 	line-height: 0.8;
+	margin-bottom: 10px;
 }
 header .headerWrap .headerContact #headerForm{
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 header .headerWrap .headerContact #headerForm #phone{
-	width: 142px;
-	height: 40px;
-	
+    width: 142px;
+    height: 17px;
+    -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+    border: 1px solid #000;	
+}
+header .headerWrap .headerContact #headerForm #headerFormButton{
+	border: 1px solid #000;
+	background: none;
+	width: 138px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+header .headerWrap .headerContact #headerForm #headerFormButton:hover{
+	cursor: pointer;	
+	color: #fff;
+	background: #ccc;
+}
+header .secondPartOfHeader{
+	background: url('../img/headerphoto.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	border: 1px solid #000;
+}
+header .secondPartOfHeader .headerNav{
+	max-width: 100%;
+	min-width: 1247px;
+	background: url('../img/headerNavBg.png');
+	height: 53px;
+}
+header .secondPartOfHeader .headerNav .headerNavWrap{
+	width: 1247px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	height: 53px;
+	line-height: 53px;
+}
+header .secondPartOfHeader .headerNav ul li{
+	display: inline;
+	margin-right: 53px;
+	font-size: 0;
+}
+header .secondPartOfHeader .headerNav ul li:last-child{
+	margin-right: 0;
+}
+header .secondPartOfHeader .headerNav ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'opensansL';
+}
+header .secondPartOfHeader .secondPartOfHeaderMainContent{
+	width: 1247px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	height: 300px;
+}
+header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo{
+	width: 480px;
+	/*height: 300px;*/
+	border: 1px solid #fff;
+	padding-left: 70px;
+	margin-top: 40px;	
+}
+header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo p{
+	font-size: 30px;
+	color: #fff;
+	font-family: "opensansL";
+	margin-bottom: 30px;
+}
+header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainInfoButton{
+	background: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	font-family: "opensansL";
+	font-size: 30px;
+	color: #fff;
+}
+header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainInfoButton:hover{
+	cursor: pointer;
+	color: #000;
+	background: #ccc;
+}
+#mainPart{
+	max-width: 100%;
+	min-width: 1247px;
+}
+#mainPart .mainPatrWrap{
+	width: 1247px;
+	border: 1px solid #000;
+	margin: 0 auto;
+	/*height: 300px;*/
+}
+#mainPart .mainPatrWrap h2{
+	font-family: "opensansL";
+	color: #1c1c1c;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	border: 1px solid #000;
+}
+#mainPart .mainPatrWrap .servicesBlock{
+	border: 1px solid #000;
+}
+#mainPart .mainPatrWrap .servicesBlock .ser{
+	display: inline-block;
+	border: 1px solid #000;
+	font-size: 0;
+	vertical-align: top;
+	text-align: center;
+	width: 202px;
+}
+#mainPart .mainPatrWrap .servicesBlock img{
+	margin-bottom: 10px;
+}
+#mainPart .mainPatrWrap .servicesBlock p{
+	font-size: 20px;
+	color: #1c1c1c;
+	text-align: center;
+	font-family: "opensansL";
+	border: 1px solid #000;
+	/*height: 62px;*/
+	/*line-height: 42px;*/
+	margin-bottom: 10px;
+}
+#mainPart .mainPatrWrap .servicesBlock input{
+	font-size: 18px;
+	color: #2d65aa;
+	background: none;
+	border: 1px solid #2d65aa;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	width: 139px;
+	height: 39px;
+}
+#mainPart .mainPatrWrap .servicesBlock input:hover{
+	cursor: pointer;
+	color: #fff;
+	background: #ccc;
+}
+#mainPart .mainPatrWrap .textBlock{
+	margin-bottom: 90px;
+	border: 1px solid #000;
+}
+#mainPart .mainPatrWrap .textBlock p{
+	color: #1c1c1c;
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-family: "opensansL";
 }

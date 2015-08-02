@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,22 +11,85 @@
 	<script src="js/jquery_ui/jquery-ui.min.js"></script>
 </head>
 <body>
+
 	<header>
 		<div class="headerWrap">
 			<div class="headerLogo">
-				<span>ЛОГО</span>
+				<a href="/"><span>ЛОГО</span></a>
 			</div>
 			<div class="headerContact">
 				<p class="headerPhoneNumber">8-900-123-45-67</p>
 				<form action="" method="post" id="headerForm">
-					 <input type="text" name="phone" id="phone"> 
-					 <input type="button" value="Заказать звонок">
+					 <input type="text" name="phone" id="phone" placeholder="+7(___)___-__-__"> 
+					 <input type="button" id="headerFormButton" value="Заказать звонок">
 				</form>
 			</div>
 			<div class="clear"></div>
 		</div>
-	</header>
 
+		<div class="secondPartOfHeader">
+			<div class="headerNav">
+				<div class="headerNavWrap">
+					<ul><!-- 
+						--><li><a href="#">Справка с работы</a></li><!-- 
+						--><li><a href="#">Выписка с банка</a></li><!-- 
+						--><li><a href="#">Подтверждение бронирования</a></li><!-- 
+						--><li><a href="#">Страховка</a></li><!-- 
+						--><li><a href="#">Справка 2 НДФЛ</a></li><!-- 
+						--><li><a href="#">Билеты на самоле</a>т</li><!-- 
+						--><li><a href="#">Информация</a></li><!-- 
+					--></ul>
+				</div><!-- headerNavWrap -->			
+			</div><!-- headerNav -->	
+			<div class="secondPartOfHeaderMainContent">
+				<div class="headerMainInfo">
+					<p>Какая то проблема человека?</p>
+					<p>Развернутое решение проблемы
+					предложение своих услуг уникальное торговое предложение</p>
+					<input type="button" id="mainInfoButton" value="Какое-то действие">
+				</div>
+			</div>
+		</div><!-- secondPartOfHeader -->
+	</header>
+	
+	<div id="mainPart">
+		<div class="mainPatrWrap">
+			<h2>Наши Услуги</h2>
+			
+			<div class="servicesBlock">
+				<div class="ser" id="s1"><img src="img/s1.png" alt="service">
+				<p>Справка с места <br>работы</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+				<div class="ser" id="s2"><img src="img/s2.png" alt="service">
+				<p>Справка 2 НДФЛ</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+				<div class="ser" id="s3"><img src="img/s3.png" alt="service">
+				<p>Выписка из банка</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+				<div class="ser" id="s4"><img src="img/s4.png" alt="service">
+				<p>Подтверждение <br>бронирования гостиницы</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+				<div class="ser" id="s5"><img src="img/s5.png" alt="service">
+				<p>Страховка для выезда <br>за рубеж</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+				<div class="ser" id="s6"><img src="img/s6.png" alt="service">
+				<p>Билет на самолет <br>для визы</p>
+				<input type="button" value="ЗАКАЗАТЬ">	
+				</div>
+			</div><!-- servicesBlock -->
+			<h2>Текстовый блок</h2>
+			<div class="textBlock">
+				<p>Повествование, в отличие от описания, представляет собой изображение событий или явлений, совершающихся не одновременно, а следующих друг за другом или обусловливающих друг друга. Самый, по-видимому, краткий в мировой литературе образец повествования – знаменитый рассказ Цезаря: «Пришёл, увидел, победил». Он ярко и точно передаёт суть повествования – это рассказ о том, что произошло, случилось.</p>
+				<p>Повествование раскрывает тесно связанные между собой события, явления, действия как объективно происходившие в прошлом. Именно поэтому главное средство такого рассказа – сменяющие друг друга и называющие действия глаголы прошедшего времени совершенного вида. Предложения повествовательных контекстов не описывают действия, а повествуют о них, то есть передают самое событие, действие.</p>
+				<p>Повествование теснейшим образом связано с пространством и временем. Обозначение места, действия, название лиц и не лиц, производящих действия, и обозначение самих действий – это языковые средства, с помощью которых ведётся повествование.</p>
+			</div>
+		</div><!-- mainPatrWrap -->
+	</div>
 
 
 
