@@ -175,6 +175,12 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	margin: 0 auto;
 	/*height: 300px;*/
 }
+#mainPart .mainPatrWrap p{
+	font-size: 20px;
+	color: #1c1c1c;
+	font-family: "opensansL";
+	line-height: 1.2;
+}
 #mainPart .mainPatrWrap h2{
 	font-family: "opensansL";
 	color: #1c1c1c;
@@ -225,7 +231,7 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 	background: #ccc;
 }
 #mainPart .mainPatrWrap .textBlock{
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	/*border: 1px solid #000;*/
 }
 #mainPart .mainPatrWrap .textBlock p{
@@ -501,4 +507,101 @@ footer #footer .footerMap{
     font-size: 20px;
     line-height: 1.3;
     font-family: "opensansL";
+}
+
+.spravkaTemlates{
+	background: url('../img/spravkaTemplate.jpg') no-repeat;
+	background-size: 1247px !important;
+	height: 906px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.spravkaTemlates h2{
+	color: #fff !important;
+}
+.spravkaImgs{
+	/*border: 1px solid #fff;*/
+	width: 950px;
+	text-align: center;
+	font-size: 0;
+	margin: 0 auto;
+}
+.spravkaTemlates p{
+	font-size: 20px;
+	color: #fff;
+	font-family: "opensansL";
+	width: 1160px;
+	margin: 0 auto; 
+	/*border: 1px solid #fff;*/
+	margin-top: 20px;
+	text-align: left;
+}
+.spravkaTemlates input{
+	padding: 0 30px;
+	height: 63px;
+	background: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	font-size: 30px;
+	font-family: "opensansL";
+	/*margin-left: 280px;*/
+    margin-top: 50px;
+    outline:inherit;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.spravkaTemlates input:hover{
+		cursor: pointer;
+	background: #ccc;
+	color: #fff;
+}
+.shareScreen{
+	/*border: 1px solid #000;*/
+}
+.leftPiece{
+	width: 45%;
+	display: inline-block;
+	/*border: 1px solid #000;*/
+	vertical-align: top;
+	margin-right: 115px;
+	text-align: center;
+}
+.leftPiece p{
+	text-align: left;
+}
+.rightPiece{
+	width: 45%;	
+	display: inline-block;
+	/*border: 1px solid #000;*/
+	vertical-align: top;
+	text-align: center;
+	height: 456px;
+}
+.rightPiece p{
+	text-align: left;
+}
+
+.shareScreen div input{
+	padding: 0 70px;
+	height: 63px;
+	background: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	font-size: 30px;
+	font-family: "opensansL";
+	/*margin-left: 280px;*/
+    margin-top: 20px;
+    outline:inherit;
+    color: #2d65aa;
+    border: 2px solid #2d65aa;
+}
+.rightPiece input{
+	margin-top: 46px !important;
+}
+.shareScreen div input:hover{
+	cursor: pointer;
+	background: #ccc;
+	color: #fff;
 }
