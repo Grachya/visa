@@ -18,7 +18,7 @@ header .headerWrap{
 header .headerWrap .headerLogo{
 	width: 226px;
 	height: 66px;
-	border: 1px solid #979797;
+	/*border: 1px solid #979797;*/
 	float: left;
 	/*margin: 24px 0;*/
 	text-align: center;
@@ -495,4 +495,10 @@ footer #footer .footerMap{
 .serBl7 .innerTextBlock input{
 	color: #fff;
 	border: 2px solid #fff;
+}
+.afterService p{
+	    color: #1c1c1c;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: "opensansL";
 }
