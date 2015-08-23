@@ -231,7 +231,19 @@ header .secondPartOfHeader .secondPartOfHeaderMainContent .headerMainInfo #mainI
 #mainPart .mainPatrWrap .textBlock p{
 	color: #1c1c1c;
 	font-size: 20px;
-	margin-bottom: 15px;
+	line-height: 1.3;
+	font-family: "opensansL";
+}
+#mainPart .mainPatrWrap .textBlock p.marBot{
+	margin-bottom: 30px;
+}
+#mainPart .mainPatrWrap .textBlock p.marTop{
+	margin-top: 30px;
+}
+#mainPart .mainPatrWrap .textBlock ul li{
+	color: #1c1c1c;
+	font-size: 20px;
+	margin-bottom: 8px;
 	font-family: "opensansL";
 }
 footer #footer{
@@ -293,4 +305,194 @@ footer #footer .footerMap{
 	max-width: 100%;
 	min-width: 1247px;
 
+}
+.testig{
+/*	width: 100%;
+	height: 300px;*/
+	background: url('../img/bl1.jpg') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 30px;
+/*	border: 1px solid #000;*/
+	  border-top: 100px solid red;
+    border-left: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}
+.strangeBlocks{
+	/*border: 1px solid #000;*/
+	margin-top: 30px;
+}
+.srvBl{
+	background-size: 1247px !important;
+	font-size: 0;
+}
+.serBl1{
+	background: url('../img/serBl1.jpg') no-repeat;
+	height:515px ;
+	color: #fff !important;
+	text-align: right;
+}
+.serBl2{
+	background: url('../img/serBl2.jpg') no-repeat;
+	height:456px ;
+}
+.serBl3{
+	background: url('../img/serBl3.jpg') no-repeat;
+	height:450px ;
+	color: #fff !important;
+	text-align: right;
+}
+.serBl4{
+	background: url('../img/serBl4.jpg') no-repeat;
+	height:455px ;
+}
+.serBl5{
+	background: url('../img/serBl5.jpg') no-repeat;
+	height:451px ;
+	color: #fff !important;
+	text-align: right;
+}
+.serBl6{
+	background: url('../img/serBl6.jpg') no-repeat;
+	height:446px ;
+}
+.serBl7{
+	background: url('../img/serBl7.jpg') no-repeat;
+	height:792px ;
+	color: #fff !important;
+	text-align: center;
+}
+/**********************************/
+.innerTextBlock{
+	font-size: 20px;
+	width: 850px;
+	/*border: 1px solid #000;*/
+	display: inline-block;
+	text-align: left;
+	font-family: "opensansL";
+    line-height: 1.2;
+}
+.innerTextBlock h2{	
+	font-family: "opensansL" !important;
+	font-size: 40px;
+	margin-bottom: 20px !important;
+}
+.innerTextBlock input{
+	/*width: 320px;*/
+	padding: 0 30px;
+	height: 63px;
+	background: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	font-size: 30px;
+	font-family: "opensansL";
+	margin-left: 280px;
+    margin-top: 18px;
+    outline:inherit;
+}
+.innerTextBlock input:hover{
+	cursor: pointer;
+	background: #ccc;
+	color: #fff;
+}
+/**********************************/
+.serBl1 .innerTextBlock{
+	margin-top: 40px;
+}
+.serBl1 .innerTextBlock h2{
+	color: #fff !important;
+}
+.serBl1 .innerTextBlock input{
+	color: #fff;
+	border: 2px solid #fff;
+}
+/**********************************/
+.serBl2 .innerTextBlock{
+	/*margin-top: 40px;*/
+	margin-left: 25px;
+}
+.serBl2 .innerTextBlock h2{
+	/*color: #fff !important;*/
+	margin-top: 10px !important;
+}
+.serBl2 .innerTextBlock input{
+	color: #000;
+	border: 2px solid #000;
+	margin-top: 20px;
+}
+/**********************************/
+.serBl3 .innerTextBlock{
+	margin-top:10px;
+	width: 820px;
+	margin-right: 10px;
+}
+.serBl3 .innerTextBlock h2{
+	color: #fff !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.serBl3 .innerTextBlock input{
+	color: #fff;
+	border: 2px solid #fff;
+}
+/**********************************/
+.serBl4 .innerTextBlock{
+	/*margin-top: 40px;*/
+	margin-left: 25px;
+}
+.serBl4 .innerTextBlock h2{
+	/*color: #fff !important;*/
+	margin-top: 10px !important;
+}
+.serBl4 .innerTextBlock input{
+	color: #000;
+	border: 2px solid #000;
+	margin-top: 20px;
+}
+/**********************************/
+.serBl5 .innerTextBlock{
+	margin-top:10px;
+	width: 820px;
+	margin-right: 10px;
+}
+.serBl5 .innerTextBlock h2{
+	color: #fff !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.serBl5 .innerTextBlock input{
+	color: #fff;
+	border: 2px solid #fff;
+}
+/**********************************/
+.serBl6 .innerTextBlock{
+	/*margin-top: 40px;*/
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.serBl6 .innerTextBlock h2{
+	/*color: #fff !important;*/
+	margin-top: 10px !important;
+}
+.serBl6 .innerTextBlock input{
+	color: #000;
+	border: 2px solid #000;
+	margin-top: 20px;
+}
+/**********************************/
+.serBl7 .innerTextBlock{
+	margin-top:10px;
+	width: 1100px;
+	margin-right: 10px;
+}
+.serBl7 .innerTextBlock h2{
+	color: #fff !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.serBl7 .innerTextBlock input{
+	color: #fff;
+	border: 2px solid #fff;
 }
