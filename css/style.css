@@ -516,7 +516,7 @@ footer #footer .footerMap{
 	background: url('../img/spravkaTemplate.jpg') no-repeat;
 	background-size: 1247px !important;
 	height: 906px;
-	/*border: 1px solid #000;*/
+	border: 1px solid #000;
 	text-align: center;
 }
 .spravkaTemlates h2{
@@ -584,8 +584,10 @@ footer #footer .footerMap{
 .rightPiece p{
 	text-align: left;
 }
-
-.shareScreen div input{
+.center{
+	text-align: center;
+}
+.shareScreen div input, .download{
 	padding: 0 70px;
 	height: 63px;
 	background: none;
@@ -603,16 +605,16 @@ footer #footer .footerMap{
 .rightPiece input{
 	margin-top: 46px !important;
 }
-.shareScreen div input:hover{
+.shareScreen div input:hover, .download:hover{
 	cursor: pointer;
 	background: #ccc;
 	color: #fff;
 }
 .shema2{
 	background: url('../img/odoxodaxBg.jpg') no-repeat;
-	/*border: 1px solid #000;*/
+	border: 1px solid #000;
 	background-size: 1247px !important;
-	height: 690px;
+	height: 687px;
 	margin-top: 30px;
 	text-align: center;
 }
@@ -621,8 +623,7 @@ footer #footer .footerMap{
 	font-size: 40px !important;
 	font-family: "opensansL";
 	width: 950px;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
 .shema2 p{
 	color: #fff !important;
@@ -631,4 +632,11 @@ footer #footer .footerMap{
 	width: 1150px;
 	margin: 0 auto;
 	text-align: left;
+}
+.sraboty h2{
+	margin-top: 40px !important;
+}
+.witdMar li{
+	margin-bottom: 20px !important;
+	line-height: 1.2;
 }
