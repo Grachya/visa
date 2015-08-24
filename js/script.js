@@ -14,19 +14,19 @@ $(document).ready(function(){
 	$('.ser p').css({'height':finalPheight});
 
 	// sparavka template 
-	var mainBlwidth = $('.spravkaImgs').width();
-	var innerElem = $('.spravkaImgs').find('*')
-	var innerElemWidth = 0;
-	for(y=0; y<=innerElem.length;y++){
-		innerElemWidth += $(innerElem[y]).width();
-	}
-	// console.log("new",innerElemWidth);
-	var elemPaddinf = mainBlwidth - innerElemWidth;
-	for(z=0; z<innerElem.length-1; z++){
-		$('.spravkaImgs').find('*').eq(z).css({
-			marginRight:elemPaddinf
-		})
-	}
+	// var mainBlwidth = $('.spravkaImgs').width();
+	// var innerElem = $('.spravkaImgs').find('*')
+	// var innerElemWidth = 0;
+	// for(y=0; y<=innerElem.length;y++){
+	// 	innerElemWidth += $(innerElem[y]).width();
+	// }
+	// // console.log("new",innerElemWidth);
+	// var elemPaddinf = mainBlwidth - innerElemWidth;
+	// for(z=0; z<innerElem.length-1; z++){
+	// 	$('.spravkaImgs').find('*').eq(z).css({
+	// 		marginRight:elemPaddinf
+	// 	})
+	// }
 
 	//общая высота shareScreen
 	// var elems = $('.shareScreen').find('div');

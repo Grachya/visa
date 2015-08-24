@@ -407,6 +407,9 @@ footer #footer .footerMap{
 .serBl1 .innerTextBlock{
 	margin-top: 40px;
 }
+.serBl1 p{
+	color: #fff !important;
+}
 .serBl1 .innerTextBlock h2{
 	color: #fff !important;
 }
@@ -433,6 +436,9 @@ footer #footer .footerMap{
 	margin-top:10px;
 	width: 820px;
 	margin-right: 10px;
+}
+.serBl3 p{
+	color: #fff !important;
 }
 .serBl3 .innerTextBlock h2{
 	color: #fff !important;
@@ -462,6 +468,9 @@ footer #footer .footerMap{
 	margin-top:10px;
 	width: 820px;
 	margin-right: 10px;
+}
+.serBl5 p{
+	color: #fff !important;
 }
 .serBl5 .innerTextBlock h2{
 	color: #fff !important;
@@ -528,6 +537,9 @@ footer #footer .footerMap{
 	text-align: center;
 	font-size: 0;
 	margin: 0 auto;
+}
+.spravkaImgs img:first-child{
+	margin-right: 200px !important;
 }
 .spravkaTemlates p{
 	font-size: 20px;
