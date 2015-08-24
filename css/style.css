@@ -488,6 +488,9 @@ footer #footer .footerMap{
 	margin-top: 20px;
 }
 /**********************************/
+.serBl7 .innerTextBlock p{
+	color: #fff !important;
+}
 .serBl7 .innerTextBlock{
 	margin-top:10px;
 	width: 1100px;
@@ -513,7 +516,7 @@ footer #footer .footerMap{
 	background: url('../img/spravkaTemplate.jpg') no-repeat;
 	background-size: 1247px !important;
 	height: 906px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	text-align: center;
 }
 .spravkaTemlates h2{
@@ -604,4 +607,28 @@ footer #footer .footerMap{
 	cursor: pointer;
 	background: #ccc;
 	color: #fff;
+}
+.shema2{
+	background: url('../img/odoxodaxBg.jpg') no-repeat;
+	/*border: 1px solid #000;*/
+	background-size: 1247px !important;
+	height: 690px;
+	margin-top: 30px;
+	text-align: center;
+}
+.shema2 h2{
+	color: #fff !important;
+	font-size: 40px !important;
+	font-family: "opensansL";
+	width: 950px;
+	margin: 0 auto;
+	
+}
+.shema2 p{
+	color: #fff !important;
+	font-size: 20px !important;
+	font-family: "opensansL";
+	width: 1150px;
+	margin: 0 auto;
+	text-align: left;
 }
